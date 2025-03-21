@@ -17,29 +17,13 @@
 
 ## Release candidates
 
-- [`8.1-alpine`, `8.1.0-rc1-alpine`, `8.1.0-rc1-alpine3.21`, `8.1-alpine3.21`](https://github.com/valkey-io/valkey-container/blob/master/8.1/alpine/Dockerfile)
-- [`8.1.0-rc1`, `8.1`, `8.1.0-rc1-bookworm`, `8.1-bookworm`](https://github.com/valkey-io/valkey-container/blob/master/8.1/debian/Dockerfile)
+- [`8.1.0-rc2`, `8.1`, `8.1.0-rc2-bookworm`, `8.1-bookworm`](https://github.com/valkey-io/valkey-container/blob/master/8.1/debian/Dockerfile)
+- [`8.1.0-rc2-alpine`, `8.1-alpine`, `8.1.0-rc2-alpine3.21`, `8.1-alpine3.21`](https://github.com/valkey-io/valkey-container/blob/master/8.1/alpine/Dockerfile)
 
 ## Latest unstable
 
 - [`unstable`, `unstable-bookworm`](https://github.com/valkey-io/valkey-container/blob/master/unstable/debian/Dockerfile)
 - [`unstable-alpine`, `unstable-alpine3.21`](https://github.com/valkey-io/valkey-container/blob/master/unstable/alpine/Dockerfile)
-
-
-What is [Valkey](https://github.com/valkey-io/valkey)?
---------------
-Valkey is a high-performance data structure server that primarily serves key/value workloads.
-It supports a wide range of native structures and an extensible plugin system for adding new data structures and access patterns.
-
-# Security
-
-For the ease of accessing Valkey from other containers via Docker networking, the "Protected mode" is turned off by default. This means that if you expose the port outside of your host (e.g., via `-p` on `docker run`), it will be open without a password to anyone. It is **highly** recommended to set a password (by supplying a config file) if you plan on exposing your Valkey instance to the internet. For further information, see the following links about Valkey security:
-
--	[Valkey documentation on security](https://valkey.io/topics/security/)
--	[Protected mode](https://valkey.io/topics/security/#protected-mode)
--	[A few things about security by antirez](http://antirez.com/news/96)
-
-# How to use this image
 
 ## Start a valkey instance
 
