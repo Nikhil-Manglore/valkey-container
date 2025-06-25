@@ -42,5 +42,16 @@
     "alpine": {
       "version": "3.21"
     }
+  },
+  "8.2": {
+    "version": "8.2.0",
+    "url": "https://github.com/Nikhil-Manglore/valkey/archive/refs/tags/8.2.0.tar.gz",
+    "sha256": "6afec7caca03e293378993e05f410be40d9535910e9ae959f72bbf1fa796c3b9",
+    "debian": {
+      "version": "bookworm"
+    },
+    "alpine": {
+      "version": "3.22"
+    }
   }
 }
