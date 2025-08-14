@@ -90,7 +90,7 @@ RUN set -eux; \
 	apt-get install -y --no-install-recommends \
 # add tzdata explicitly for https://github.com/docker-library/valkey/issues/138 (see also https://bugs.debian.org/837060 and related)
 		tzdata \
-		libssl3 \
+		libssl3t64 \
 	; \
 	rm -rf /var/lib/apt/lists/*
 
