@@ -44,9 +44,9 @@
     }
   },
   "9.0": {
-    "version": "9.0.0-rc1",
-    "url": "https://github.com/valkey-io/valkey/archive/refs/tags/9.0.0-rc1.tar.gz",
-    "sha256": "b9a61d3e2b1e7a4c51e1e32c63e342a676b0b8ebbaf79b0d789be9f9ca1c7b67",
+    "version": "9.0.0",
+    "url": "https://github.com/Nikhil-Manglore/valkey/archive/refs/tags/9.0.0.tar.gz",
+    "sha256": "1131a4d4c4e891716e3503626fff18eefbf365a5f59070144dd16141037f0910",
     "debian": {
       "version": "trixie"
     },
